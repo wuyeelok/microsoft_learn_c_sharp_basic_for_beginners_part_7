@@ -3,7 +3,7 @@ var part = "Part 7";
 Console.WriteLine($"Hello, World! {part}");
 
 
-int a = 18;
-int b = 6;
-int c = a + b;
+int a = int.MaxValue;
+int b = 1;
+long c = a + b;
 Console.WriteLine(c);
